@@ -441,7 +441,9 @@ nav {
         width: 33.33%;
         
     }
-   
+    .charts {
+        margin-left: -21%;
+    }
 }
 
 
