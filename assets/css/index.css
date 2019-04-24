@@ -539,8 +539,12 @@ a:hover {
     }
 
     .messenger p {
+        /*float: left;
+        color: #00dcb4;*/
         float: left;
-        color: #00dcb4;
+        color: white;
+        text-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;
+        margin-right: -35px;
     }
 
 .nav-container {
@@ -899,6 +903,8 @@ a:hover {
         margin-left: 7%;
     }
 }
+
+
 
 
 
