@@ -444,6 +444,12 @@ nav {
     .charts {
         margin-left: -21%;
     }
+    #home-live-section .next-link-wrapper {
+       
+        float: right;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
 }
 
 
