@@ -66,7 +66,7 @@ nav {
         }
 
         #cssmenu > ul > li:hover, #cssmenu ul li.active:hover, #cssmenu ul li.active, #cssmenu ul li.has-sub.active:hover {
-            background: #448D00 !important;
+            background: red !important;
             -webkit-transition: background .3s ease;
             -ms-transition: background .3s ease;
             transition: background .3s ease;
