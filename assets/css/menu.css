@@ -474,6 +474,11 @@ nav {
         height: 34px;
         margin-left: 30%;
     }
+
+    .top-match {
+        min-height: 232px;
+        padding: 10px 23px;
+    }
 }
 
 
