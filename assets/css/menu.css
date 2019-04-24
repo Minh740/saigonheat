@@ -432,6 +432,14 @@ nav {
     .logo a img {
         height: 80%;
         width: 15%;
+        margin-left: -37%;
+    }
+    .top-match .main-card-content .score {
+        text-align: center;
+        vertical-align: middle;
+        line-height: 70px;
+        width: 33.33%;
+        margin-left: 29%;
     }
 }
 
