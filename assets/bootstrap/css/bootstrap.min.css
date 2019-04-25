@@ -6067,7 +6067,6 @@ a.close.disabled {
 .carousel-inner {
     position: relative;
     width: 100%;
-    overflow: hidden
 }
 
     .carousel-inner:after {
@@ -10431,7 +10430,7 @@ footer {
     }
 p {
     margin-top: 1em;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 .post-heading p {
     margin-top: 0em;

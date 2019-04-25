@@ -1,8 +1,13 @@
-﻿body {
+﻿@font-face {
+    font-family: 'GothamBold';
+    src: url('GothamBold.ttf') format('truetype');
+}
+body {
     height: 2000px;
     background-repeat: no-repeat;
     background-size: auto;
     background-color: #eaeaea;
+    overflow-x: hidden;
 }
 
 div#card-2 {
@@ -26,7 +31,8 @@ div#card-3 {
 .card-2-content-right {
     width: 95%;
     float: left;
-    text-align:center;
+    text-align: center;
+    padding: 10px;
 }
 .charts {
     float: right;
@@ -62,7 +68,7 @@ span.txt-charts {
 }
 
 div {
-    font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,GothamBold;
 }
 
 .nopadding {
@@ -96,9 +102,10 @@ div {
     }
 
     .top-match span {
-        font-size: 14px;
-        font-weight: bold;
-        color: #666;
+        font-size: 12px;
+        font-weight: 800;
+        color: black;
+        font-family: sans-serif;
     }
 
 .navbar {
@@ -147,8 +154,8 @@ header.masthead .page-heading, header.masthead .post-heading, header.masthead .s
     }
 
     header.masthead .post-heading .subheading {
-        font-size: 28px;
-        line-height: 40px;
+        font-size: 25px;
+        line-height: 1.5;
     }
 
 span.cle {
@@ -165,12 +172,14 @@ span.dal {
     color: #2d8cc4;
     font-size: 14px;
 }
-
+.lbl-bottom {
+    margin-left: 17px;
+}
 .lbl-card {
     border-right: 1px solid #dfdfdf;
     border-bottom: 1px solid #dfdfdf;
-    padding: 0px 0 5px 10px;
     width: 60%;
+    text-align: left;
 }
 
 .lbl-card-2 {
@@ -192,8 +201,9 @@ span.dal {
     font-size: 12px;
     color: gray;
     font-weight: bold;
-    padding: 15px 10px;
+    padding: 15px 0px;
     margin: 0;
+    text-align: left;
 }
 
 span.lbl-l {
@@ -216,8 +226,9 @@ span.lbl-l {
 .lbl-day-right {
     font-size: 12px;
     color: gray;
+    text-align: left;
     font-weight: bold;
-    padding: 15px 0 15px 15px;
+    padding: 15px 0px;
 }
 
 .container-right {
@@ -225,19 +236,28 @@ span.lbl-l {
 }
 
 .lbl-cart-right {
-    padding: 0 0 5px 15px;
+    padding: 20px 25px 20px 0px;
     width: 40%;
 }
 
 span.mil {
     color: green;
 }
-
+/*.top-match .cart-body .card-body-right nomargin {
+    margin-top: -10px;
+}*/
+.top-match .card-body-right p.time {
+    color: black;
+    font-family: sans-serif;
+    font-size: 100%;
+    font-weight: 900;
+}
 span.tv {
     background: gray;
     color: white;
     padding: 3px;
     font-size: 11px;
+    border-radius: 5px;
 }
 
 .row card-2-custom {
@@ -335,7 +355,10 @@ span.tv {
     font-weight: bold;
 }
 .lbl-top {
-    margin-left: -10px;
+    margin-left: 30px;
+}
+span.fox-sport {
+    color: gray;
 }
 .navbar-collapse.collapse.show {
     background: #272727;
@@ -352,11 +375,13 @@ span.tv {
 .banner-next {
     text-align: center;
     margin: auto;
+    top: 5px;
 }
 
 .banner-prev {
     text-align: center;
     margin: auto;
+    top: 5px;
 }
 
 #about-heat .col {
@@ -378,9 +403,7 @@ span.tv {
 }
 
 #about-heat .heat-list-wrapper {
-    float: left;
-    /*width: 87%;
-    margin-left: 7%;*/
+    padding: 0px 78px;
 }
 
 #about-heat .about-head-wrapper {
@@ -459,14 +482,17 @@ span.tv {
 
 .video {
     position: absolute;
-    border: 2px solid red;
+    border: 1px solid red;
     border-radius: 50%;
-    padding: 30px;
+    padding: 25px;
     top: 45%;
-    left: 48%;
+    left: 47%;
     background: red;
 }
-
+#icon-video {
+    color: white;
+    font-size: 35px;
+}
 a:hover {
     text-decoration: none;
 }
@@ -477,7 +503,7 @@ a:hover {
     border-radius: 50%;
     padding: 10px;
     top: 3%;
-    left: 75%;
+    left: 78%;
     background: red;
 }
 
@@ -487,7 +513,7 @@ a:hover {
     border-radius: 50%;
     padding: 10px;
     top: 3%;
-    left: 75%;
+    left: 78%;
     background: red;
 }
 
@@ -495,9 +521,9 @@ a:hover {
     position: absolute;
     border: 2px solid gray;
     border-radius: 50%;
-    padding:10px;
-    top: 32%;
-    left: 77%;
+    padding: 10px;
+    top: 28%;
+    left: 78%;
     background: gray;
 }
 
@@ -506,9 +532,9 @@ a:hover {
     border: 2px solid gray;
     border-radius: 50%;
     padding: 10px;
-    left: 80%;
+    left: 78%;
     background: gray;
-    top: 60%;
+    top: 53%;
 }
 
 #icon {
@@ -849,9 +875,9 @@ a:hover {
         left: 84%;
     }
 }
-.a{
+/*.a{
     text-align:center;
-}
+}*/
 @media only screen and (max-width: 375px) {
     .messenger {
         /*position: absolute;
@@ -898,14 +924,17 @@ a:hover {
     .col-md-3 {
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
-        max-width: 15%;
-        margin-left: 7%;
+        max-width: 100%;
     }
 }
+.carousel {
+    position: relative;
+    width: 100%;
+}
 
-
-
-
+.heart {
+    margin-left: 15%;
+}
 
 
 

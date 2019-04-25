@@ -2,7 +2,8 @@
     position: relative;
     display: inline-block;
     width: 60px;
-    height: 34px;
+    height: 33px;
+    margin-left: 90%;
 }
 
     .switch input {
@@ -57,3 +58,11 @@ input:checked + .slider:before {
     .slider.round:before {
         border-radius: 50%;
     }
+#star {
+    position: absolute;
+    color: yellow;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: red;
+    margin: -35px 10px 10px 86px;
+}

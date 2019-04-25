@@ -45,9 +45,10 @@
         }
 
         .footer .connect .social {
-            padding-top: 20px;
             display: flex;
             justify-content: space-between;
+            font-size: 135%;
+            padding: 20px 35px 0px 0px;
         }
 
     .footer .instagram {
@@ -95,7 +96,7 @@
 
     .partner h5 {
         font-weight: 700;
-        font-size:55%;
+        /*font-size:55%;*/
     }
 
     .partner img {
@@ -205,7 +206,7 @@
 }
 
 .fix {
-    padding-top: 30px;
+    padding-top: 70px;
 }
 
 .btn-loadmore {

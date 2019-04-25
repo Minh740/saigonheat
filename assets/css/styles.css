@@ -6,17 +6,13 @@
 }
 
     #home-live-section .top-live-wrapper {
-        padding: 50px 0;
+        padding: 40px 80px;
         width: 100%;
-        float: left;
+        text-align: center;
     }
 
     #home-live-section .content-live-wrapper {
-        /*width: 100%;
-        float: left;*/
-        width: 86%;
-        float: left;
-        margin-left: 7%;
+        padding: 30px 80px;
     }
 
         #home-live-section .content-live-wrapper img {
@@ -24,9 +20,8 @@
         }
 
     #home-live-section .section-title {
-        /*float: left;*/
         float: left;
-        margin-left: 7%;
+
     }
 
         #home-live-section .section-title .title img {
@@ -43,9 +38,7 @@
         }
 
     #home-live-section .next-link-wrapper {
-        /*float: right;*/
         float: right;
-        margin-right: 7%;
     }
 
         #home-live-section .next-link-wrapper .next-link {
@@ -367,7 +360,7 @@
 }
 /*End homepage person section*/
 .section-padding {
-    padding: 25px 0px 25px;
+    padding: 25px 0px 25px 83px;
 }
 
 .rm-padding {
@@ -394,4 +387,8 @@
     .partner img {
         width: 100%;
     }
+}
+#home-video-section .section-description {
+    font-size: 14px;
+    width: 100%;
 }
