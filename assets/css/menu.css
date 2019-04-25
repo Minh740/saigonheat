@@ -592,6 +592,24 @@ nav {
         margin: 4px 0;
     }
 
+    header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
+        padding: 159px 0;
+        margin-left: -3px;
+    }
+    .replay-video {
+        position: absolute;
+        top: 8%;
+        left: 33%;
+        font-size: 9px;
+        margin-left: 23%;
+    }
+    .replayy {
+        width: 19%;
+        margin-top: 8%;
+    }
+
+
+
 
 }
 
