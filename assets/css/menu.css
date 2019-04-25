@@ -444,7 +444,7 @@ nav {
         
     }
     .charts {
-        margin-left: -21%;
+        margin-left: -24%;
     }
     #home-live-section .next-link-wrapper {
        
@@ -474,7 +474,17 @@ nav {
         display: inline-block;
         width: 60px;
         height: 34px;
-        margin-left: 30%;
+        margin-left: 34% !important;
+        
+    }
+
+    #star {
+        position: absolute;
+        color: yellow;
+        border: 2px solid red;
+        border-radius: 50%;
+        background-color: red;
+        margin: 6px 10px 10px -27px !important;
     }
 
     .top-match {
@@ -575,6 +585,11 @@ nav {
     #home-season-section #season-list .season-title span {
         font-weight: 600;
         font-size: 12px;
+    }
+
+    .btn-find-seat {
+        width: 100%;
+        margin: 4px 0;
     }
 
 
