@@ -490,6 +490,14 @@ nav {
         margin-top: 500px;
         margin-right: -32px;
     }
+    .a {
+        margin-top: 1px;
+    }
+
+    .ml-auto, .mx-auto {
+        margin-left: auto !important;
+        text-align: center;
+    }
 }
 
 
