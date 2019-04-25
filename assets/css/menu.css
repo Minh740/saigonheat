@@ -504,6 +504,12 @@ nav {
         left: 84%;
         padding: 10px;
     }
+
+    .post-heading {
+        margin-top: -100px;
+        margin-left: -5px;
+    }
+    
 }
 
 
