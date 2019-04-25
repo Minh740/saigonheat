@@ -144,14 +144,14 @@ header.masthead .overlay {
 }
 
 header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
-    /*padding: 369px 0;*/
-    padding: 152px 0;
+    padding: 369px 0;
 }
 
     header.masthead .post-heading h1 {
         font-size: 60px;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         font-family: unset;
+        line-height: 1.5;
     }
 
     header.masthead .post-heading .subheading {
@@ -448,9 +448,8 @@ span.fox-sport {
     color: white;
 }
 
-.post-heading {
-    margin-left: 47px;
-    margin-top: -100px;
+.video-hero--content .post-heading {
+    margin-left: -115px;
 }
 
 .layout-img {
@@ -577,7 +576,8 @@ a:hover {
     background-color: rgb(3,1,2, 0.8) !important;
 }
 .about-heat-row-custom {
-    margin: -35px 0px;
+    margin: -20px 0px;
+    color: black;
 }
 /*@media only screen and (max-width: 1024px) {
     .sub-card {
@@ -937,8 +937,18 @@ a:hover {
     margin-left: 15%;
 }
 
-
-
+.replay-video {
+    position: absolute;
+    top: 5%;
+    left: 73%;
+}
+.img-replay {
+    display: -webkit-box;
+}
+.replay-video p {
+    font-weight: 700;
+    margin-top: 17%;
+}
 
 
 

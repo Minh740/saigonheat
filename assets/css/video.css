@@ -26,7 +26,7 @@ $overlay_pattern: 'https://d3k5xyayaartr5.cloudfront.net/_assets/pattern-overlay
 
 .video-hero--content {
     position: relative;
-    text-align: center;
+    text-align: left;
     color: #FFF;
     margin: 150px 0;
     text-shadow: 0 0 5px rgba(0,0,0,0.4);
@@ -38,9 +38,8 @@ $overlay_pattern: 'https://d3k5xyayaartr5.cloudfront.net/_assets/pattern-overlay
     }
 
     .video-hero--content p {
-        font-size: 45px;
+        font-size: 55px;
         margin: 0;
-        font-family: GOTHAM BLACK;
     }
 
 /* Other stuff */
@@ -201,3 +200,6 @@ a:hover .subtitle {
     .jquery-background-video-pauseplay.pause:after {
         left: 10px;
     }
+.video-hero--content p span {
+    font-family: GOTHAM BLACK
+}
