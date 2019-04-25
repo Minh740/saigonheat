@@ -144,7 +144,8 @@ header.masthead .overlay {
 }
 
 header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
-    padding: 369px 0;
+    /*padding: 369px 0;*/
+    padding: 152px 0;
 }
 
     header.masthead .post-heading h1 {

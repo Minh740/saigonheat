@@ -126,9 +126,10 @@ a:hover .subtitle {
     position: absolute;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
-    top: 50%;
+    /*width: auto;
+    height: auto;*/
+    width :640;
+    height:480;
     left: 50%;
     -o-object-fit: contain;
     object-fit: contain;
