@@ -498,6 +498,12 @@ nav {
         margin-left: auto !important;
         text-align: center;
     }
+
+    .rep {
+        top: 38%;
+        left: 84%;
+        padding: 10px;
+    }
 }
 
 
