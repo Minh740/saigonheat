@@ -41,10 +41,15 @@ $overlay_pattern: 'https://d3k5xyayaartr5.cloudfront.net/_assets/pattern-overlay
         /*font-size: 45px;
         margin: 0;
         font-family: GOTHAM BLACK;*/
-        font-size: 19px;
+        /*font-size: 19px;*/
         margin: 0;
     }
-
+#fa-quote {
+    font-size: 35px;
+}
+/*header.masthead .post-heading {
+    margin-top: -185px;
+}*/
 /* Other stuff */
 body {
     font-family: 'Roboto', sans-serif;
