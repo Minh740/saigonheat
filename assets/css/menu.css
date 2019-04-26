@@ -66,9 +66,7 @@ nav {
         }
 
         #cssmenu > ul > li:hover, #cssmenu ul li.active:hover, #cssmenu ul li.active, #cssmenu ul li.has-sub.active:hover {
-
             /*background: red !important;*/
-
             -webkit-transition: background .3s ease;
             -ms-transition: background .3s ease;
             transition: background .3s ease;
@@ -425,40 +423,46 @@ nav {
         border-top: none
     }
 }
+
 #cssmenu {
     font-family: sans-serif;
     background: rgb(3,1,2, 0.8) !important;
     width: 100%;
 }
+
 @media screen and (max-width: 1000px) {
     .logo a img {
         height: 80%;
         width: 15%;
         margin-left: -37%;
     }
+
     .top-match .main-card-content .score {
         text-align: center;
         vertical-align: middle;
         line-height: 70px;
         width: 33.33%;
-        
     }
+
     .charts {
         margin-left: -24%;
     }
+
     #home-live-section .next-link-wrapper {
-       
         float: right;
         /*margin-left: 7%;*/
         margin-right: 7%;
     }
+
     header.masthead .post-heading h1 {
         font-size: 27px;
     }
+
     header.masthead .post-heading .subheading {
         font-size: 17px;
         line-height: 30px;
     }
+
     #home-video-section .section-title {
         color: #fff;
         margin-left: 9%;
@@ -475,7 +479,6 @@ nav {
         width: 60px;
         height: 34px;
         margin-left: 34% !important;
-        
     }
 
     #star {
@@ -491,6 +494,7 @@ nav {
         min-height: 232px;
         padding: 10px 23px;
     }
+
         .top-match span {
             font-size: 13px;
             font-weight: bold;
@@ -502,6 +506,7 @@ nav {
         margin-top: 500px;
         margin-right: -32px;
     }
+
     .a {
         margin-top: 1px;
         text-align: center;
@@ -534,26 +539,32 @@ nav {
         line-height: unset;
         margin-left: -45%;
     }
+
     #home-video-section .wrapper-control .carousel-control-next-icon {
         background-image: url(../img/arrow-square.png);
         margin-top: 7%;
     }
+
     .col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
         position: relative;
         width: 100%;
         padding-right: 15px;
         padding-left: 25px;
     }
+
     .camera {
         left: 78%;
     }
+
     .youtube {
         left: 77%;
     }
+
     .rep-youtube {
         top: 47%;
         left: 81%;
     }
+
     .carousel-item {
         position: relative;
         display: none;
@@ -596,6 +607,7 @@ nav {
         padding: 159px 0;
         margin-left: -3px;
     }
+
     .replay-video {
         position: absolute;
         top: 8%;
@@ -603,14 +615,11 @@ nav {
         font-size: 9px;
         margin-left: 23%;
     }
+
     .replayy {
         width: 19%;
         margin-top: 8%;
     }
-
-
-
-
 }
 
 
@@ -636,6 +645,7 @@ nav {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
     #cssmenu > ul > li {
         float: left;
         margin-top: 37px;

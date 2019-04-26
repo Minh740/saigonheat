@@ -336,7 +336,7 @@ template {
 }
 
 .h1, h1 {
-    font-size: 3.5rem
+    font-size: 2.5rem
 }
 
 .h2, h2 {
@@ -541,16 +541,19 @@ pre {
 
 .container-fluid {
     width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto
 }
 
 .row {
+    display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
-    margin-left: -15px;
+    margin-left: -15px
 }
 
 .no-gutters {
@@ -1225,7 +1228,7 @@ pre {
     .col-lg-2 {
         -ms-flex: 0 0 16.66667%;
         flex: 0 0 16.66667%;
-        max-width: 13.66667%
+        max-width: 16.66667%
     }
 
     .col-lg-3 {
@@ -6067,6 +6070,7 @@ a.close.disabled {
 .carousel-inner {
     position: relative;
     width: 100%;
+    overflow: hidden
 }
 
     .carousel-inner:after {
@@ -10038,7 +10042,10 @@ body {
     font-family: Lora,Times New Roman,serif
 }
 
-
+p {
+    line-height: 1.5;
+    margin: 30px 0
+}
 
     p a {
         text-decoration: underline
@@ -10284,9 +10291,10 @@ header.masthead .post-heading .meta, header.masthead .post-heading .subheading {
 }
 
 header.masthead .post-heading .subheading {
-    font-weight: 700;
-    margin: 0px 0 80px;
-    font-family: unset;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0 30px;
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif
 }
 
 header.masthead .post-heading .meta {
@@ -10428,11 +10436,3 @@ footer {
         margin-bottom: 0;
         text-align: center
     }
-p {
-    margin-top: 1em;
-    margin-bottom: 1.5rem;
-}
-.post-heading p {
-    margin-top: 0em;
-    margin-bottom: 1rem;
-}

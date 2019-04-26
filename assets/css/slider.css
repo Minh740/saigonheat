@@ -136,9 +136,10 @@
 @media (max-width: 760px) {
     #partner {
         /*visibility: hidden;*/
-        display:none;
+        display: none;
     }
 }
+
 @media (min-width: 760px) {
     #partner1 {
         /*visibility: hidden;*/
@@ -149,4 +150,3 @@
 .carousel-item {
     margin: 0px -4px 0px -10px;
 }
-

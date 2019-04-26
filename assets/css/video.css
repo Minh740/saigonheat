@@ -41,15 +41,10 @@ $overlay_pattern: 'https://d3k5xyayaartr5.cloudfront.net/_assets/pattern-overlay
         /*font-size: 45px;
         margin: 0;
         font-family: GOTHAM BLACK;*/
-        /*font-size: 19px;*/
+        font-size: 19px;
         margin: 0;
     }
-#fa-quote {
-    font-size: 35px;
-}
-/*header.masthead .post-heading {
-    margin-top: -185px;
-}*/
+
 /* Other stuff */
 body {
     font-family: 'Roboto', sans-serif;
@@ -133,11 +128,10 @@ a:hover .subtitle {
     position: absolute;
     min-width: 100%;
     min-height: 100%;
-    /*width: auto;
-    height: auto;*/
-    width :640;
-    height:480;
+    /*width: 640;
+    height: 480;*/
     left: 50%;
+    margin-top: 26%;
     -o-object-fit: contain;
     object-fit: contain;
     -webkit-transform: translate(-50%,-50%);
@@ -208,6 +202,7 @@ a:hover .subtitle {
     .jquery-background-video-pauseplay.pause:after {
         left: 10px;
     }
+
 .video-hero--content p span {
     font-family: GOTHAM BLACK
 }

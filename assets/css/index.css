@@ -2,6 +2,7 @@
     font-family: 'GothamBold';
     src: url('GothamBold.ttf') format('truetype');
 }
+
 body {
     height: 2000px;
     background-repeat: no-repeat;
@@ -34,6 +35,7 @@ div#card-3 {
     text-align: center;
     padding: 10px;
 }
+
 .charts {
     float: right;
     background: #da3138;
@@ -50,17 +52,21 @@ div#card-3 {
     height: auto;
     position: absolute;
 }
+
 .charts-child {
     width: 100%;
     margin-left: 3px;
 }
+
     .charts-child img {
         padding: 10px;
         font-size: 15px;
     }
+
 span.txt-charts {
     padding-right: 20px;
-}   
+}
+
 @media (min-width: 1200px) {
     .container {
         max-width: 1385px;
@@ -173,9 +179,11 @@ span.dal {
     color: #2d8cc4;
     font-size: 14px;
 }
+
 .lbl-bottom {
     margin-left: 17px;
 }
+
 .lbl-card {
     border-right: 1px solid #dfdfdf;
     border-bottom: 1px solid #dfdfdf;
@@ -253,6 +261,7 @@ span.mil {
     font-size: 100%;
     font-weight: 900;
 }
+
 span.tv {
     background: gray;
     color: white;
@@ -278,18 +287,19 @@ span.tv {
     background: #870038;
 }
 
-    .btn-find-seat:hover{
-        color:black
+    .btn-find-seat:hover {
+        color: black
     }
-    .btn-find-seat {
-        background: #870038;
-        color: white;
-        font-size: 12px;
-        width: auto;
-        padding: 7px 30px 7px 30px;
-        border-radius: 5px;
-        margin: 10px 0 0 20px;
-    }
+
+.btn-find-seat {
+    background: #870038;
+    color: white;
+    font-size: 12px;
+    width: auto;
+    padding: 7px 30px 7px 30px;
+    border-radius: 5px;
+    margin: 10px 0 0 20px;
+}
 
 .position-banner {
     background: url(../img/img-2.png) no-repeat;
@@ -355,12 +365,15 @@ span.tv {
     color: gray;
     font-weight: bold;
 }
+
 .lbl-top {
     margin-left: 30px;
 }
+
 span.fox-sport {
     color: gray;
 }
+
 .navbar-collapse.collapse.show {
     background: #272727;
 }
@@ -388,7 +401,7 @@ span.fox-sport {
 #about-heat .col {
     width: 20%;
     float: left;
-    min-height: 650px;
+    min-height: 610px;
 }
 
 #about-heat .col-center {
@@ -415,7 +428,7 @@ span.fox-sport {
     padding: 70px 0;
     font-size: 15px;
     font-weight: 900;
-    margin-left:7%;
+    margin-left: 7%;
 }
 
     #about-heat .social-link span {
@@ -431,15 +444,18 @@ span.fox-sport {
 #partner .partner .vip img {
     width: 100%;
 }
-#partner{
-    padding:0px 85px;
+
+#partner {
+    padding: 0px 85px;
 }
+
 .avatar {
     width: 100%
 }
-.about-heat-title-cusotem{
-    font-size:50px;
-    margin-right:7%;
+
+.about-heat-title-cusotem {
+    font-size: 50px;
+    margin-right: 7%;
 }
 
 .btn-readmore {
@@ -476,6 +492,7 @@ span.fox-sport {
 .next {
     margin: 10px
 }
+
 .video-thumb {
     width: 100%;
 }
@@ -489,10 +506,12 @@ span.fox-sport {
     left: 47%;
     background: red;
 }
+
 #icon-video {
     color: white;
     font-size: 35px;
 }
+
 a:hover {
     text-decoration: none;
 }
@@ -534,16 +553,18 @@ a:hover {
     padding: 10px;
     left: 78%;
     background: gray;
-    top: 53%;
+    top: 55%;
 }
 
 #icon {
     color: white
 }
+
 #icon-replay {
     color: white;
     font-size: 10px;
 }
+
 .messenger {
     /*position: absolute;
     font-weight: 700;
@@ -575,6 +596,7 @@ a:hover {
 .nav-container {
     background-color: rgb(3,1,2, 0.8) !important;
 }
+
 .about-heat-row-custom {
     margin: -20px 0px;
     color: black;
@@ -695,58 +717,57 @@ a:hover {
         margin-top: 20%;
         margin-left: 16%;
     }
+
     .replay {
         left: 70%;
         top: 20%;
         padding: 5%;
     }
-    
 }
 
-    @media only screen and (max-width: 425px) {
-        #about-heat .col {
-            width: 50%;
-        }
-
-        header.masthead .post-heading h1 {
-            font-size: 36px;
-        }
-
-        header.masthead .post-heading .subheading {
-            font-size: 18px;
-            line-height: 30px;
-        }
-
-        #about-heat .section-title {
-            padding: 10px 0;
-            text-align: left;
-        }
-
-        #about-heat .social-link {
-            padding: 30px 0 10px;
-        }
-
-        .charts {
-            margin-left: 69%;
-            margin-top: 20%;
-        }
-
-
-        .video {
-            top: 40%;
-            left: 43%;
-            padding: 10px;
-        }
-        
+@media only screen and (max-width: 425px) {
+    #about-heat .col {
+        width: 50%;
     }
 
-    
+    header.masthead .post-heading h1 {
+        font-size: 36px;
+    }
+
+    header.masthead .post-heading .subheading {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    #about-heat .section-title {
+        padding: 10px 0;
+        text-align: left;
+    }
+
+    #about-heat .social-link {
+        padding: 30px 0 10px;
+    }
+
+    .charts {
+        margin-left: 69%;
+        margin-top: 20%;
+    }
+
+
+    .video {
+        top: 40%;
+        left: 43%;
+        padding: 10px;
+    }
+}
+
+
 
 @media only screen and (min-width: 360px) {
     .charts-child {
         margin-left: 6px;
- 
     }
+
     .charts {
         margin-left: 22%;
     }
@@ -777,7 +798,7 @@ a:hover {
     .youtube {
         left: 78%
     }*/
-   
+
 
 }
 /*@media only screen and (min-width: 1024px) {
@@ -812,8 +833,7 @@ a:hover {
 }*/
 
 
-@media only screen and (max-width: 1024px)
-{
+@media only screen and (max-width: 1024px) {
     .rep {
         top: 22%;
         left: 76%;
@@ -832,6 +852,7 @@ a:hover {
         left: 73%;
     }
 }
+
 @media only screen and (max-width: 812px) {
     .about-heat-row-custom {
         margin: -5px 0px;
@@ -865,7 +886,8 @@ a:hover {
         font-family: unset;
     }
 }
-@media only screen and (max-width: 568px){
+
+@media only screen and (max-width: 568px) {
     .rep {
         top: 38%;
         left: 84%;
@@ -892,7 +914,6 @@ a:hover {
         right: -10px;
         bottom: 41px;
         z-index: 99;
-       
         cursor: pointer;
     }
 }
@@ -903,6 +924,7 @@ a:hover {
         margin-top: -100px;
     }
 }
+
 #linktop {
     width: 39px;
     height: 39px;
@@ -916,11 +938,13 @@ a:hover {
     opacity: 0.6;
     cursor: pointer;
 }
+
 .carousel {
     position: relative;
     margin-right: -7%;
     width: 98%;
 }
+
 @media (min-width: 768px) {
     .col-md-3 {
         -ms-flex: 0 0 25%;
@@ -928,6 +952,7 @@ a:hover {
         max-width: 100%;
     }
 }
+
 .carousel {
     position: relative;
     width: 100%;
@@ -942,12 +967,12 @@ a:hover {
     top: 5%;
     left: 73%;
 }
+
 .img-replay {
     display: -webkit-box;
 }
+
 .replay-video p {
     font-weight: 700;
     margin-top: 17%;
 }
-
-

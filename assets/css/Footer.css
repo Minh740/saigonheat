@@ -8,15 +8,16 @@
 
     .footer .team-title {
         color: #c41d31;
-        font-weight: 600;
+        font-weight: 700;
         font-size: 16px;
-        margin-top: 10px;
+        margin-top: 20px;
         line-height: 1.5;
     }
 
     .footer p {
         line-height: 2.5;
-        font-size: 0.85em;
+        font-size: 0.9em;
+        margin-top: -5%;
     }
 
     .footer .links {
@@ -48,7 +49,7 @@
             display: flex;
             justify-content: space-between;
             font-size: 135%;
-            padding: 20px 35px 0px 0px;
+            padding: 45px 35px 0px 0px;
         }
 
     .footer .instagram {
@@ -63,6 +64,12 @@
             background-color: #404040;
         }
 
+.imager {
+    margin-top: 38px;
+}
+.link {
+    margin-top: 20%;
+}
 .underline {
     padding-bottom: 5px;
     border-bottom: 2px solid #cf3239;
@@ -91,7 +98,7 @@
 
     .partner h1 {
         padding-bottom: 20px;
-        font-family:unset
+        font-family: unset
     }
 
     .partner h5 {
@@ -143,6 +150,7 @@
     color: white;
     font-weight: 600;
 }
+
 .show .btn-readmore {
     border: none;
     padding: 10px 20px 10px 20px;
@@ -151,11 +159,13 @@
     color: white;
     font-weight: 600;
 }
+
 .show:hover .readmore1 {
     background: none;
 }
-.btn-readmore:hover{
-    background-color:red
+
+.btn-readmore:hover {
+    background-color: red
 }
 /* ======================================= */
 /* ABOUT SECTION  */
@@ -206,7 +216,7 @@
 }
 
 .fix {
-    padding-top: 70px;
+    padding-top: 90px;
 }
 
 .btn-loadmore {
@@ -223,6 +233,7 @@
         font-size: 14px;
         font-weight: 600;
     }
+
 .readmore1 {
     position: absolute;
     top: 0;
@@ -235,6 +246,7 @@
     transition: .5s ease;
     background: rgb(152,152,152, 0.5);
 }
+
 .more {
     color: white;
     font-size: 20px;
@@ -244,6 +256,7 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
     .more p {
         width: 300px;
         font-size: 14px;

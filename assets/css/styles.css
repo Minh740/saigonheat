@@ -21,7 +21,6 @@
 
     #home-live-section .section-title {
         float: left;
-
     }
 
         #home-live-section .section-title .title img {
@@ -249,11 +248,13 @@
 }
 
 .section-padding #season-list .carousel-inner .carousel-item {
-    margin-left: -85px;
+    margin-left: 10px;
+    width: 100%;
 }
+
 @media only screen and (min-width: 1024px) {
-    .partner img{
-        width:100%;
+    .partner img {
+        width: 100%;
     }
 }
 
@@ -266,6 +267,7 @@
         font-weight: 600;
         font-size: 14px;
     }
+
     .partner img {
         width: 100%;
     }
@@ -351,9 +353,11 @@
             font-size: 16px;
             line-height: 2;
         }
+
 .fa-check-customer {
     color: red;
 }
+
 @media only screen and (max-width: 1024px) {
     #home-person-info #person-list .avatar img {
         height: auto;
@@ -382,6 +386,7 @@
             width: 100%;
             text-align: center;
         }
+
     .partner img {
         width: 100%;
     }
@@ -394,15 +399,18 @@
 .rm-padding {
     padding: 0px;
 }
+
 .view {
     color: red;
     font-family: unset;
     font-weight: 700;
 }
+
 @media only screen and (max-width: 768px) {
     .section-padding {
         padding: 30px 50px 30px;
     }
+
     .partner img {
         width: 100%;
     }
@@ -412,10 +420,12 @@
     .section-padding {
         padding: 30px 10px 30px;
     }
+
     .partner img {
         width: 100%;
     }
 }
+
 #home-video-section .section-description {
     font-size: 14px;
     width: 100%;
