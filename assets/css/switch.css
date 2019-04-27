@@ -66,5 +66,5 @@ input:checked + .slider:before {
     border: 2px solid red;
     border-radius: 50%;
     background-color: red;
-    margin: 47px 0px 0px -65px;
+    margin: 10% 3%;
 }
