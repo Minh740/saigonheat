@@ -136,39 +136,67 @@
 
     <header class="masthead">
 
-        <nav id='cssmenu'>
-            <div class="logo">
-                <a href="#">
-                    <img src="assets/img/logo-saigon-heat-top.png" />
-                </a>
-            </div>
+        <!--<nav id='cssmenu'>
+        <div class="logo">
+            <a href="#">
+                <img src="assets/img/logo-saigon-heat-top.png" />
+            </a>
+        </div>
 
-            <div id="head-mobile"></div>
-            <div class="button"></div>
-            <ul>
-                <li><a href='#'>HOME</a></li>
-                <li><a href='#'>TEAM</a></li>
-                <li><a href='#'>SCHEDULE</a></li>
-                <li><a href='#'>NEWS</a></li>
-                <li><a href='#'>GALLERY</a></li>
-                <li><a href='#'>TICKETS</a></li>
-                <li><a href='#'>SHOP</a></li>
-                <li>
-                    <label class="switch">
-                        <input type="checkbox" checked>
-                        <span class="slider round"></span>
-                    </label>
-                    <i class='fas fa-star' id="star"></i>
-                </li>
-            </ul>
-            <div class="row charts">
-                <div class="charts-child">
-                    <img src="assets/img/icon-bxh.png">
-                    <span class="txt-charts">Bảng Xếp Hạng ABL</span>
-                </div>
+        <div id="head-mobile"></div>
+        <div class="button"></div>
+        <ul>
+            <li><a href='#'>HOME</a></li>
+            <li><a href='#'>TEAM</a></li>
+            <li><a href='#'>SCHEDULE</a></li>
+            <li><a href='#'>NEWS</a></li>
+            <li><a href='#'>GALLERY</a></li>
+            <li><a href='#'>TICKETS</a></li>
+            <li><a href='#'>SHOP</a></li>
+            <li>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+                <i class='fas fa-star' id="star"></i>
+            </li>
+        </ul>
+        <div class="row charts">
+            <div class="charts-child">
+                <img src="assets/img/icon-bxh.png">
+                <span class="txt-charts">Bảng Xếp Hạng ABL</span>
             </div>
-        </nav>
-        
+        </div>
+    </nav>-->
+
+        <div class="topnav" id="myTopnav">
+            <a href='#'>
+                <img src="assets/img/logo-saigon-heat-top.png" />
+            </a>
+            <a href='#' class="nav-links">HOME</a>
+            <a href='#' class="nav-links">TEAM</a>
+            <a href='#' class="nav-links">SCHEDULE</a>
+            <a href='#' class="nav-links">NEWS</a>
+            <a href='#' class="nav-links">GALLERY</a>
+            <a href='#' class="nav-links">TICKETS</a>
+            <a href='#' class="nav-links">SHOP</a>
+            <a href='#' class="nav-links">
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </a>
+           
+            <i class='fas fa-star' id="star"></i>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
+        </div>
+        <div class="row charts">
+            <div class="charts-child">
+                <img src="assets/img/icon-bxh.png">
+                <span class="txt-charts">Bảng Xếp Hạng ABL</span>
+            </div>
+        </div>
+
         <!-- Start video hero -->
         <div class="video-hero jquery-background-video-wrapper demo-video-wrapper">
             <video class="jquery-background-video" autoplay muted loop poster="https://d2ezlykacdqcnj.cloudfront.net/_assets/home-video/beach-waves-loop.jpg">
@@ -325,8 +353,8 @@
                             </div>
                             <div class="col-sm-8 col-md-9">
                                 <div class="container">
-                                    
-                                    <!-- Top content -->
+
+                                    <!--Top content
                                     <div class="row">
                                         <div class="col-sm-12">
                                             <div class="wrapper-control">
@@ -374,7 +402,68 @@
                                                         <img src="assets/img/img-6.png" class="img-fluid mx-auto d-block" alt="img10">
                                                     </div>
                                                 </div>
-                                                
+
+                                            </div>
+                                        </div>
+                                    </div>-->
+                                    <!-- Top content -->
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="wrapper-control">
+                                                <a class="carousel-control-prev" onclick="PreVideo()">
+                                                    <span class="carousel-control-prev-icon"></span>
+                                                </a>
+                                                <a class="carousel-control-next" onclick="NextVideo()">
+                                                    <span class="carousel-control-next-icon"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="top-content">
+                                        <div class="container-fluid">
+                                            <div id="carousel-videos" class="owl-carousel">
+
+                                                <div class="item col-12">
+                                                    <img src="assets/img/img-6.png" class="img-fluid mx-auto d-block"
+                                                         alt="img1">
+                                                </div>
+                                                <div class="item col-12">
+                                                    <img src="assets/img/img-6.png" class="img-fluid mx-auto d-block"
+                                                         alt="img2">
+                                                </div>
+                                                <div class="item col-12">
+                                                    <img src="assets/img/img-6.png" class="img-fluid mx-auto d-block"
+                                                         alt="img3">
+                                                </div>
+                                                <div class="item col-12">
+                                                    <img src="assets/img/img-6.png" class="img-fluid mx-auto d-block"
+                                                         alt="img4">
+                                                </div>
+                                                <div class="item col-12">
+                                                    <img src="assets/img/img-6.png" class="img-fluid mx-auto d-block"
+                                                         alt="img5">
+                                                </div>
+                                                <div class="item col-12">
+                                                    <img src="assets/img/img-6.png" class="img-fluid mx-auto d-block"
+                                                         alt="img6">
+                                                </div>
+                                                <div class="item col-12">
+                                                    <img src="assets/img/img-6.png" class="img-fluid mx-auto d-block"
+                                                         alt="img7">
+                                                </div>
+                                                <div class="item col-12">
+                                                    <img src="assets/img/img-6.png" class="img-fluid mx-auto d-block"
+                                                         alt="img8">
+                                                </div>
+                                                <div class="item col-12">
+                                                    <img src="assets/img/img-6.png" class="img-fluid mx-auto d-block"
+                                                         alt="img9">
+                                                </div>
+                                                <div class="item col-12">
+                                                    <img src="assets/img/img-6.png" class="img-fluid mx-auto d-block"
+                                                         alt="img10">
+                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -393,7 +482,7 @@
                 <div class="col-xl-12">
                     <div class="season-content section-padding section-padding-customer">
                         <div class="row">
-                           
+
                             <div class="col-sm-11">
                                 <div id="season-list" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
@@ -558,7 +647,7 @@
                                 <i class="fas fa-camera" id="icon"></i>
                             </div>
                             <div class="replay rep">
-                                <i class='fas fa-share'id="icon-replay"></i>
+                                <i class='fas fa-share' id="icon-replay"></i>
                             </div>
                             <div class="cmt-like fixs">
                                 <img src="assets/img/icon-comment.png" class="comment"> 269 </img>
@@ -917,7 +1006,7 @@
                                 <!--<img src="assets/img/img-6.png" class="img-fluid mx-auto d-block" alt="img10">-->
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -925,7 +1014,7 @@
     </section>
 
     <div>
-       
+
         <div class="container-fluid footer">
             <div class="container">
                 <div class="row">
@@ -1030,6 +1119,29 @@
                 };
             });
         })
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(function () {
+            $("#carousel-videos").owlCarousel({
+                items: 4,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 3000
+            })
+        })
+
+        function PreVideo() {
+            $("#carousel-videos").trigger('prev.owl.carousel');
+        }
+
+        function NextVideo() {
+            $("#carousel-videos").trigger('next.owl.carousel');
+        }
     </script>
 
 </body>

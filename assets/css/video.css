@@ -206,3 +206,11 @@ a:hover .subtitle {
 .video-hero--content p span {
     font-family: GOTHAM BLACK
 }
+
+    .jquery-background-video-pauseplay.pause:after {
+        left: 10px;
+    }
+
+.video-hero--content p span {
+    font-family: GOTHAM BLACK
+}
