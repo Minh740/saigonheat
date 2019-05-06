@@ -1,0 +1,111 @@
+﻿header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
+    padding: 201px 17px;
+}
+
+.font_size {
+    font-size: 30px;
+}
+
+.banner-next {
+    text-align: center;
+    margin-left: 1202px;
+    top: -150px;
+}
+
+.avatar {
+    width: 100%;
+    margin-bottom: -134px;
+}
+
+.divv {
+    width: 100%;
+    display: flex;
+    margin-top: -53px;
+}
+
+.banner-prev {
+    text-align: center;
+    top: 444px;
+    margin-left: 32px;
+    z-index: 1;
+}
+.info-wrapper {
+    float: right;
+    background: #fff;
+    margin-top: 10%;
+    border: solid 1px #fff;
+    border-radius: 20px;
+    padding: 10px;
+    max-width: 420px;
+}
+
+.info-wrapper .rank {
+    color: #ca2128;
+    font-size: 48px;
+}
+
+.info-wrapper .name {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.info-wrapper .read-more-info {
+    padding: 5px 25px;
+    background: #ca2128;
+    color: #ffffff;
+    border: solid 1px #ca2128;
+    border-radius: 44px;
+    font-size: 15px;
+    margin: 10px 0 10px;
+    float: left;
+}
+
+.info-wrapper table {
+    font-size: 15px;
+    width: 100%;
+    line-height: 2;
+}
+
+#home-person-info {
+    background-image: url(../img/img-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #eaeaea;
+    background-size: cover;
+    margin-top: -53px;
+    opacity: 0.7;
+}
+.partner {
+    background-color: #e8e8e8;
+    text-align: center;
+    padding: 150px 0px 90px 0px;
+    color: #242424;
+}
+@media screen and (max-width : 1000px){
+
+    header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
+        padding: 246px 17px;
+    }
+
+    .font_size {
+        font-size: 26px;
+    }
+
+    #home-person-info #person-list .info-wrapper {
+        float: unset;
+        margin: 20px auto;
+        margin-left: 9px;
+        margin-right: 9px;
+    }
+
+    .divv {
+        display: unset;
+        width: 95%;
+        margin-left: 9px;
+        margin-top: 0px;
+    }
+
+    .person{
+        width:100%;
+    }
+}

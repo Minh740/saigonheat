@@ -15,19 +15,18 @@
         font-size: 17px;
         font-weight: 700;
     }
-
-.nav-links {
-    margin-top: 2%;
-}
-/* Change the color of links on hover */
+         .nav-links {
+            margin-top: 2%;
+        }
+        /* Change the color of links on hover */
 .topnav a:hover {
     color: red;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-    display: none;
-}
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+        display: none;
+    }
 
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -40,7 +39,6 @@
         float: right;
         display: block;
     }
-
     .topnav a:hover {
         color: red;
     }
@@ -63,17 +61,14 @@
             display: block;
             text-align: left;
         }
-
     .topnav a:hover {
         color: red;
     }
 }
-
 .topnav {
     background-color: #333;
     overflow: hidden;
 }
-
     .topnav a {
         float: left;
         display: block;
@@ -84,18 +79,15 @@
         font-size: 17px;
         font-weight: 700;
     }
-
         .topnav a:hover {
             color: red;
         }
-
     .topnav .icon {
         display: none;
     }
-
-.nav-links {
-    margin-top: 2%;
-}
+   .nav-links {
+        margin-top: 2%;
+    }
 
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
@@ -106,12 +98,10 @@
         float: right;
         display: block;
     }
-
     .topnav a:hover {
         color: red;
     }
 }
-
 @media screen and (max-width: 600px) {
     .topnav.responsive {
         position: relative;
@@ -128,8 +118,143 @@
             display: block;
             text-align: left;
         }
-
     .topnav a:hover {
         color: red;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .logo a img {
+        height: 80%;
+        width: 15%;
+        margin-left: -37%;
+    }
+
+    .top-match .main-card-content .score {
+        text-align: center;
+        vertical-align: middle;
+        line-height: 70px;
+        width: 33.33%;
+    }
+
+    .charts {
+        margin-left: -21%;
+    }
+
+    #home-live-section .next-link-wrapper {
+        float: right;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    header.masthead .post-heading h1 {
+        font-size: 27px;
+    }
+
+    header.masthead .post-heading .subheading {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    #home-video-section .section-title {
+        color: #fff;
+    }
+
+    #home-video-section .section-description {
+        font-size: 14px;
+    }
+
+
+    .top-match {
+        min-height: 232px;
+        padding: 10px 23px;
+    }
+
+        .top-match span {
+            font-size: 13px;
+            font-weight: bold;
+            color: #666;
+        }
+
+    .section-padding #season-list .carousel-inner .carousel-item .season-title {
+        margin-left: -4%;
+    }
+
+    .a {
+        margin-top: 1px;
+        text-align: center;
+    }
+
+    .ml-auto, .mx-auto {
+        margin-left: auto !important;
+        text-align: center;
+    }
+
+    .rep {
+        top: 42%;
+        left: 84%;
+        padding: 10px;
+    }
+
+    .post-heading {
+        margin-top: -100px;
+        margin-left: -5px;
+    }
+    header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
+        padding: 180px 0;
+        margin-left: 20px;
+    }
+    #home-live-section .next-link-wrapper .next-link{
+        margin-left:-44%;
+    }
+   
+    #logo {
+        margin-left: 66px;
+    }
+    #chevron-right {
+        color: white;
+        border: 5px solid #d61b1b;
+        background: #d61b1b;
+        margin-left: -1px;
+        margin-right: 5%;
+    }
+    #chevron-left {
+        color: orange;
+        margin-left: -3%;
+       
+    }
+    #about-heat .heat-list-wrapper {
+        padding: 0px 11px;
+    }
+    .rep-youtube {
+        top: 65%;
+        left: 84%;
+    }
+    .paddingg {
+        padding: 0px 10px;
+    }
+    .replay-video p {
+        font-weight: 700;
+        margin-top: 27%;
+        font-size: 9px;
+        margin-left: -58px;
+    }
+    .replayy {
+        width: 29%;
+        margin-top: 16%;
+    }
+    #icon-video {
+        color: white;
+        font-size: 20px;
+    }
+    #home-person-info #person-list .info-wrapper {
+        float: unset;
+        margin: 20px auto;
+        margin-left: 20px;
+    }
+    .promoo {
+        padding: 0px 10px;
+    }
+    .logoo {
+        margin-left: 66px;
     }
 }

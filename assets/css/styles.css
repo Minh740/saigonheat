@@ -177,6 +177,7 @@
     background-color: #eaeaea;
     color: #000000;
     min-height: 20px;
+    
 }
 
     #home-season-section .wrapper-control {
@@ -222,24 +223,23 @@
     }
 
 #chevron-left {
-    color: orange
+    color: orange;
 }
 
 #chevron-right {
-    color: white;
-    border: 5px solid #d61b1b;
-    background: #d61b1b;
+    color: orange;
 }
 
 #chevron-left:hover {
     border: 5px solid red;
     background: red;
+    color: white;
 }
 
 #chevron-right:hover {
     border: 5px solid red;
     background: red;
-    color: orange
+    color: white;
 }
 
 .section-padding #season-list .carousel-inner .carousel-item .season-title {
@@ -284,6 +284,7 @@
 
     #home-person-info #person-list .avatar {
         max-height: 620px;
+        margin-top: -29px;
     }
 
         #home-person-info #person-list .avatar img {
@@ -361,6 +362,7 @@
     #home-person-info #person-list .avatar img {
         height: auto;
         width: 100%;
+        margin-bottom: -35px;
     }
 }
 

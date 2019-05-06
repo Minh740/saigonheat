@@ -45,18 +45,6 @@
     margin-left: 4%;
     height: 100%;
 }
-.header {
-    position: absolute;
-    color: white;
-    margin: -44% 5%;
-}
-.header h1{
-    font-size:350%
-} 
-.contain-gallery {
-    position: relative;
-    margin-top: -500px;
-}
 .show_mores {
     width: 100%;
     text-align: center;

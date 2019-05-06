@@ -502,16 +502,14 @@ span.fox-sport {
 
 .video {
     position: absolute;
-    border: 1px solid #e41414;
+    border: 1px solid red;
     border-radius: 50%;
-    padding: 15px 20px;
-    top: 46%;
+    padding: 25px;
+    top: 45%;
     left: 47%;
-    background-color: #e41414;
+    background: red;
 }
-.video:hover{
-    background-color:red
-}
+
 #icon-video {
     color: white;
     font-size: 35px;
@@ -525,7 +523,7 @@ a:hover {
     position: absolute;
     border: 2px solid red;
     border-radius: 50%;
-    padding: 7px 10px;
+    padding:8px 10px;
     top: 3%;
     left: 78%;
     background: red;
@@ -535,7 +533,7 @@ a:hover {
     position: absolute;
     border: 2px solid red;
     border-radius: 50%;
-    padding: 8px 10px;
+    padding:8px 10px;
     top: 3%;
     left: 78%;
     background: red;
@@ -545,9 +543,9 @@ a:hover {
     position: absolute;
     border: 2px solid gray;
     border-radius: 50%;
-    padding: 5px 10px;
+    padding:5px 10px;
     top: 28%;
-    left: 80%;
+    left: 78%;
     background: gray;
 }
 
@@ -555,8 +553,8 @@ a:hover {
     position: absolute;
     border: 2px solid gray;
     border-radius: 50%;
-    padding: 5px 10px;
-    left: 80%;
+    padding:5px 10px;
+    left: 78%;
     background: gray;
     top: 55%;
 }
@@ -606,61 +604,18 @@ a:hover {
     margin: -20px 0px;
     color: black;
 }
-/*@media only screen and (max-width: 1024px) {
-    .sub-card {
-        padding: 0px;
+@media only screen and (max-width: 1000px) {
+    .carousel-control-next {
+        right: 0;
+        margin-top: 400px;
     }
 
-    .navbar {
-        height: auto;
+    #home-video-section .wrapper-control .carousel-control-next {
+        right: 0px;
+        width: 20px;
+        margin-top: 0px;
     }
-
-    .partner h5 {
-        font-size: 14px;
-    }
-
-    .partner h1 {
-        font-size: 25px;
-    }
-    #partner{
-        padding:0px
-    }
-    .video {
-        top: 46%;
-        left: 47%;
-        padding: 20px;
-    }
-    .camera {
-        top: 2%;
-        left: 75%;
-    }
-
-    .youtube {
-        top: 2%;
-        left: 73%;
-    }
-    .replay {
-        padding: 5px;
-        left: 80%;
-        top: 22%;
-    }
-    .replay-youtube {
-        padding: 5px;
-        left: 80%;
-        top: 42%;
-    }
-    #icon-replay {
-        color: white;
-        font-size: 20px;
-    }
-    .charts {
-        margin-top: 20%;
-        margin-left: 24%;
-    }
-    .messenger {
-         display: contents; 
-    }
-}*/
+}
 
 @media only screen and (max-width: 768px) {
     .top-match .sub-card {
@@ -669,7 +624,7 @@ a:hover {
     }
 
     .card-2-icon-angle-left {
-        padding: 75px 0 0 10px;
+        padding: 75px 0 0 3px;
     }
 
     .lbl-card {
@@ -677,7 +632,7 @@ a:hover {
     }
 
     .card-2-icon-angle-right {
-        padding: 75px 0 0 10px;
+        padding: 75px 0 0 3px;
     }
 
     .btn-find-seat {
@@ -981,7 +936,6 @@ a:hover {
     font-weight: 700;
     margin-top: 17%;
 }
-
 .bottomm {
     margin-bottom: 38px;
 }

@@ -194,5 +194,12 @@
         margin-bottom: 6%;
     }
 
+    /*.carousel-item {
+         margin: 0px 0px 0px 0px !important; 
+    }*/
+
+    .slider2 {
+        display: table !important;
+    }
 
  }
